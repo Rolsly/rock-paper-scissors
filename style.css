@@ -1,0 +1,126 @@
+html{
+  background-image: url(backg.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;visibility;
+  font-family: 'Khand', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: honeydew;
+  margin: auto;
+}
+
+.rock{
+  position: absolute;
+  top: 230px;
+  left: 650px;
+  font-size: 30px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #353535;
+  height: 50px;
+  width: 100px;
+  border-style: solid;
+  border-color: black 2px;
+  background: linear-gradient(#cdb2b2,#7f7373);
+  border-radius: 2px;
+  margin: 4px 20px 4px 20px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+  padding: 4px 20px 4px 20px;
+  text-align: center;
+}
+
+.paper{
+  position: absolute;
+  top: 230px;
+  left: 850px;
+  font-size: 30px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #353535;
+  height: 50px;
+  width: 100px;
+  border-style: solid;
+  border-color: black 2px;
+  background: linear-gradient(#cdb2b2,#7f7373);
+  border-radius: 2px;
+  margin: 4px 20px 4px 20px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+  padding: 4px 20px 4px 20px;
+  text-align: center;
+}
+
+.scissors{
+  position: absolute;
+  top: 230px;
+  left: 1050px;
+  font-size: 30px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #353535;
+  height: 50px;
+  width: 100px;
+  border-style: solid;
+  border-color: black 2px;
+  background: linear-gradient(#cdb2b2,#7f7373);
+  border-radius: 2px;
+  margin: 4px 20px 4px 20px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+  padding: 4px 20px 4px 20px;
+  text-align: center;
+}
+
+p.paper:hover{
+  background: linear-gradient(#cdb2b2,#8f8989);
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.20);
+  cursor: pointer;
+}
+
+p.scissors:hover{
+  background: linear-gradient(#cdb2b2,#8f8989);
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.20);
+  cursor: pointer;
+}
+
+p.rock:hover{
+  background: linear-gradient(#cdb2b2,#8f8989);
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.20);
+  cursor: pointer;
+}
+
+#playerscore{
+  font-family: 'Titillium Web', sans-serif;
+  color: black;
+  padding: 2px 2px 2px 2px;
+  width: 100px;
+  height: 122px;
+  border-style: solid;
+  border-color: black 1px;
+  border-radius: 2px;
+  background: linear-gradient(#c7c7c7,#686868);
+  border-radius: 2px;
+  background-color: white;
+  position: absolute;
+  top: 400px;
+  left: 800px;
+}
+
+#compscore{
+  font-family: 'Titillium Web', sans-serif;
+  color: black;
+  padding: 2px 2px 2px 2px;
+  width: 100px;
+  height: 122px;
+  border-style: solid;
+  border-color: black 1px;
+  border-radius: 2px;
+  background: linear-gradient(#c7c7c7,#686868);
+  position: absolute;
+  top: 400px;
+  left: 950px;
+}
+
+#demo{
+  position: absolute;
+  top: 320px;
+  left: 730px;
+  font-size: 35;
+  margin: auto;
+  padding: 8px 2px 2px 2px;
+}
